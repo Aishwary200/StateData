@@ -17,7 +17,7 @@ export default class HomeScreen extends Component {
                         backgroundColor: 'white', height: 150, alignItems: 'center',
                         justifyContent: 'center',
                     }}>
-                        <Text style={{ marginTop: 30, fontWeight: 'bold', fontSize: 20 }}>To know about the States click the proceed button</Text>
+                        <Text style={{ marginTop: 30, fontWeight: 'bold', fontSize: 20 }}>To know about the States click Proceed</Text>
                         <Text style={{ marginTop: 30, fontWeight: 'bold', fontSize: 20 }}>About India</Text>
                     </View>
                     <View style={{
