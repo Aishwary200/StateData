@@ -18,7 +18,7 @@ export const states = [
     'Mizoram',
     'Nagaland',
     'Odisha',
-    'Punjab	',
+    'Punjab',
     'Rajasthan',
     'Sikkim',
     'Tamil Nadu',

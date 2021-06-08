@@ -9,12 +9,12 @@ export const myObj = [
         site: 'Tawang, Bombdila, Lohit District, Ziro'
     }, {
         stateName: "Assam", capital: "Dispur",
-        Area: '78,438 km²', date: '26 Jan. 1950', food: 'Papaya Khar',
+        Area: '78,438 km²', date: 'April 7, 1937', food: 'Papaya Khar',
         site: 'Kaziranga National Park, Pobitora Wildlife Sanctuary, Kamakhya Temple, Uma Nanda Temple'
     }, {
         stateName: "Bihar", capital: "Patna",
-        Area: '94,163 km²', date: '26 Jan. 1950', food: 'Litti Chokha',
-        site: 'Mahabodhi Temple, Rajgir, Nalanda, Vikramshila, Great Buddha Statue, GolGhar'
+        Area: '94,163 km²', date: '22 March 1912', food: 'Litti Chokha',
+        site: 'Mahabodhi Temple, Rajgir, Nalanda, Vikramshila, Great Buddha Statue, GolGhar, Takht Sri Harimandir Ji Patna Sahib'
     }, {
         stateName: "Chhattisgarh", capital: "Raipur",
         Area: '135,191 km²', date: '1 Nov. 2000', food: 'Chila',
@@ -26,7 +26,7 @@ export const myObj = [
     }, {
         stateName: "Gujarat", capital: "Gandhinagar",
         Area: '196,024 km²', date: '1 May. 1960', food: 'Dhokla',
-        site: 'Sabarmati Ashram, Lakhota Museum, Bhavnath Mahadev, Saputara Hills'
+        site: 'Sabarmati Ashram, Lakhota Museum, Bhavnath Mahadev, Saputara Hills, Statue of Unity'
     }, {
         stateName: "Haryana", capital: "Chandigarh",
         Area: '44,212 km²', date: '1 Nov. 1966', food: 'Bajre Ki Khichdi',
@@ -38,7 +38,7 @@ export const myObj = [
     }, {
         stateName: "Jharkhand", capital: "Ranchi",
         Area: '79,714 km²', date: '15 Nov. 2000', food: 'Dhooska',
-        site: 'Hazaribagh Wildlife Sanctuary, Parasnath, Deoghar, Canary Hill'
+        site: 'Hazaribagh Wildlife Sanctuary, Parasnath, Deoghar, Canary Hill, Jamshedpur, Jubilee park, Hundru Falls(Ranchi)'
     },
     {
         stateName: "Karnataka", capital: "Bengaluru",
@@ -47,17 +47,17 @@ export const myObj = [
     }, {
         stateName: "Kerala", capital: "Thiruvanathpuram",
         Area: '33,406,061 km²', date: '1 Nov. 1956', food: 'Appam',
-        site: 'Munnar, Kumarakom, Kerala Folklore Theatre & Museum, Arthirampally'
+        site: 'Munnar, Kumarakom, Kerala Folklore Theatre & Museum, Arthirampally,Kerala Backwaters'
     },
     {
         stateName: "Madhya Pradesh", capital: "Bhopal",
         Area: '308,245 km²', date: '1 Nov. 1956', food: 'Bhutte Ka Kees',
-        site: 'Khajuraho Erotic Temples, Buddhist Monuments, Taj ul Masajid, Orchha Fort'
+        site: 'Khajuraho Temple, Buddhist Monuments, Taj ul Masajid, Orchha Fort'
     },
     {
         stateName: "Maharashtra", capital: "Mumbai",
         Area: '307,713 km²', date: '1 May. 1960', food: 'Misal Pav',
-        site: 'Gateway of India, Mumbadevi Temple, Panhala Hills, Ajanta Cavas, Jain temple'
+        site: 'Gateway of India, Mumbadevi Temple, Panhala Hills, Ajanta-Ellora Cavas, Jain temple'
     },
     {
         stateName: "Manipur", capital: "Imphal",
@@ -81,8 +81,8 @@ export const myObj = [
     },
     {
         stateName: "Odisha", capital: "Bhubaneswar",
-        Area: '155,707 km²', date: '26 Jan. 1950', food: 'Chenna Poda',
-        site: 'Lingaraja Temple, Hanuman Vatika, Mahanadi Barrage, Puri Beach, Jagannath Temple'
+        Area: '155,707 km²', date: '1 April 1936', food: 'Chenna Poda',
+        site: 'Lingaraja Temple, Hanuman Vatika, Mahanadi Barrage, Puri Beach, Jagannath Temple,Ajmer Sharif Dargah'
     },
     {
         stateName: "Punjab", capital: "Chandigarh",
@@ -101,7 +101,9 @@ export const myObj = [
     },
     {
         stateName: "Tamil Nadu", capital: "Chennai",
-        Area: '130,058 km²', date: '26 Jan. 1950', food: 'Pongal',
+        Area: '130,058 km²',
+        date: 'Established in 1773; Madras State was formed in 1950 and renamed as Tamil Nadu on 14 January 1969',
+        food: 'Pongal',
         site: 'Brihadeeswarar  Temple, Mahabalipuram monuments, Ooty Botanical gardens, VGP Snow kingdom'
     }, {
         stateName: "Telangana", capital: "Hyderabad",
@@ -114,8 +116,8 @@ export const myObj = [
         site: 'Iskcon Radha-Govinda Mandir, Neermahal Palace, Unakoti,Tripura Sundari Temple'
     }, {
         stateName: "Uttar Pradesh", capital: "Lucknow",
-        Area: '240,928 km²', date: '26 Jan. 1950', food: 'Tunde Ke Kebabs',
-        site: 'Taj Mahal, Agra Fort, Bara Imambara, Kashi Vishwanath Temple'
+        Area: '240,928 km²', date: '1 April 1937', food: 'Tunde Ke Kebabs',
+        site: 'Taj Mahal, Agra Fort, Bara Imambara, Kashi Vishwanath Temple, Varanasi'
     }, {
         stateName: "Uttarakhand", capital: "Dehradun (Winter capital) , Gairsain (Summer Capital)",
         Area: '53,483 km²', date: '9 Nov. 2000', food: 'Kafuli',
@@ -125,36 +127,36 @@ export const myObj = [
         Area: '88,752 km²', date: '1 Nov. 1956', food: 'Kosha Mangsho',
         site: 'Darjeeling Mountain Hills, Digha Sea Beach, Murshidabad Historical City, Kurseong'
     }, {
-        stateName: "Andaman and Nicobar Islands", capital: "Port Blair",
+        unionName: "Andaman and Nicobar Islands", capital: "Port Blair",
         Area: '8,249 km²', date: '1 Nov. 1956', food: 'Fish Curry, Seafood',
         site: 'Radhanagar Beach, Havelock Island, Cellular Jail, Barren Island'
     }, {
-        stateName: "Chandigarh", capital: "Chandigarh",
+        unionName: "Chandigarh", capital: "Chandigarh",
         Area: '114 km²', date: '1 Nov. 1956', food: 'Chole bhature',
         site: 'Rock Garden of chandigarh, Sukhna Lake, Fun City (Water amusement park), Rose garden'
     }, {
-        stateName: "Dadra and Nagar Haveli and Daman & Diu", capital: "Daman",
+        unionName: "Dadra and Nagar Haveli and Daman & Diu", capital: "Daman",
         Area: '603 km²', date: '26 Jan. 2020', food: 'Papyri food',
         site: 'Swaminarayan Temple, Dudhani Lake, Tribal Museum, Hirwavan garden, Diu Fort, Gangeshwar Temple, Nagoa Beach, St. Paul’s Church'
     },
     {
-        stateName: "Delhi", capital: "New Delhi",
+        unionName: "Delhi", capital: "New Delhi",
         Area: '1,484 km²', date: '9 May. 1905', food: 'Paratha, Chole bhature',
-        site: 'Red Fort, Lotus Temple, India Gate, Humayun’s Tomb, Raj Ghat, Qutub Minar, Jama masjid, Rashtrapati Bhavan'
+        site: 'Red Fort, Lotus Temple, India Gate, Humayun’s Tomb, Raj Ghat, Qutub Minar, Jama masjid, Rashtrapati Bhavan, National War Memorial'
     }, {
-        stateName: "Lakshadweep", capital: "Kavaratti",
+        unionName: "Lakshadweep", capital: "Kavaratti",
         Area: '32.62 km²', date: '1 Nov. 1956', food: 'Seafood',
         site: 'Kavaratti Island, Amindivi Island, Agatti Island, Lighthouse'
     }, {
-        stateName: "Puducherry", capital: "Pondicherry",
+        unionName: "Puducherry", capital: "Pondicherry",
         Area: '479 km²', date: '1 Nov. 1954', food: 'Seafood',
         site: 'Seaside Promenade, Church of the Sacred Heart of Jesus, Paradise Beach, Pondicherry Botanical Garden'
     }, {
-        stateName: "Jammu and Kashmir", capital: "Srinagar (Summer capital) , Jammu (Winter capital)",
+        unionName: "Jammu and Kashmir", capital: "Srinagar (Summer capital) , Jammu (Winter capital)",
         Area: '125,535 km²', date: '31 Oct 2019', food: 'Rogan Josh',
-        site: 'Gulmarg, Tulip Garden, Sonamarg, Dal Lake'
+        site: 'Gulmarg, Tulip Garden, Sonamarg, Dal Lake,Maa Vaishno Devi, Amarnath Temple'
     }, {
-        stateName: "Ladakh", capital: "Leh",
+        unionName: "Ladakh", capital: "Leh",
         Area: '96,701 km²', date: '31 Oct 2019', food: 'Khambir,Yarkhandi Pulao',
         site: 'Khardung La, Karakoram Wildlife Sanctuary, Shey Monastery, Magnet Hill, Tso moriri'
     },

@@ -13,10 +13,9 @@ export default class Details extends Component {
         console.log(this.props.navigation.getParam('name'))
         return (
             <View>
-
-                {console.log(myObj)}
                 {myObj.map((value, k) => {
-                    if (this.state.selectedState === value.stateName) {
+                    if (this.state.selectedState === value.stateName ) {
+
                         return (
                             <View key={k}>
                                 <Text style={styles.title}>Know the Indian states</Text>
@@ -27,13 +26,26 @@ export default class Details extends Component {
                                 <Text style={styles.text}>Famous food/foods: {value.food}</Text>
                                 <Text style={styles.text}>Tourist sites: {value.site}</Text>
                             </View>
-        )
-    }
-})}
-<TouchableOpacity style={styles.button}
-    onPress={() => this.props.navigation.navigate('StatesList')}>
-    <Text>Back</Text>
-</TouchableOpacity>
+                        )
+                    }
+                    else if(this.state.selectedState === value.unionName){
+                        return (
+                            <View key={k}>
+                                <Text style={styles.title}>Know the Indian states</Text>
+                                <Text style={styles.text}>Union Territory: {value.unionName}</Text>
+                                <Text style={styles.text}>Capital: {value.capital}</Text>
+                                <Text style={styles.text}>Area: {value.Area}</Text>
+                                <Text style={styles.text}>Founded on: {value.date}</Text>
+                                <Text style={styles.text}>Famous food/foods: {value.food}</Text>
+                                <Text style={styles.text}>Tourist sites: {value.site}</Text>
+                            </View>
+                        )
+                    }
+                })}
+                <TouchableOpacity style={styles.button}
+                    onPress={() => this.props.navigation.navigate('StatesList')}>
+                    <Text>Back</Text>
+                </TouchableOpacity>
             </View >
         )
     }
@@ -51,16 +63,16 @@ const styles = StyleSheet.create({
         marginTop: 20
     },
     text: {
-        marginTop: 10, 
+        marginTop: 10,
         fontWeight: 'bold',
-        marginLeft:20
+        marginLeft: 20
     },
-    
+
     title: {
         fontSize: 30,
         justifyContent: 'center',
         fontWeight: 'bold',
         marginTop: 60,
-        marginLeft:30
+        marginLeft: 30
     },
 })
