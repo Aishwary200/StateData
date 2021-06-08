@@ -1,6 +1,6 @@
 export const myObj = [
     {
-        stateName: "Andhra Pradesh", capital: "Hyderabad (Proposed Capital Amaravati)",
+        stateName: "Andhra Pradesh", capital: "Amaravati",
         Area: '160,205 km²', date: '1 Nov. 1956', food: 'Pootharekulu',
         site: 'Birla Mandir, Bhavani Island, Venkateswara Temple, Golkonda fort'
     }, {
@@ -26,7 +26,7 @@ export const myObj = [
     }, {
         stateName: "Gujarat", capital: "Gandhinagar",
         Area: '196,024 km²', date: '1 May. 1960', food: 'Dhokla',
-        site: 'Sabarmati Ashram, Lakhota Museum, Bhavnath Mahadev, Saputara Hills, Statue of Unity'
+        site: 'Sabarmati Ashram, Lakhota Museum, Bhavnath Mahadev, Saputara Hills, Statue of Unity, Dwarka Temple, Somnath Temple'
     }, {
         stateName: "Haryana", capital: "Chandigarh",
         Area: '44,212 km²', date: '1 Nov. 1966', food: 'Bajre Ki Khichdi',
@@ -47,17 +47,17 @@ export const myObj = [
     }, {
         stateName: "Kerala", capital: "Thiruvanathpuram",
         Area: '33,406,061 km²', date: '1 Nov. 1956', food: 'Appam',
-        site: 'Munnar, Kumarakom, Kerala Folklore Theatre & Museum, Arthirampally,Kerala Backwaters'
+        site: 'Munnar, Kumarakom, Kerala Folklore Theatre & Museum, Arthirampally,Kerala Backwaters, Cheraman Juma Masjid'
     },
     {
         stateName: "Madhya Pradesh", capital: "Bhopal",
         Area: '308,245 km²', date: '1 Nov. 1956', food: 'Bhutte Ka Kees',
-        site: 'Khajuraho Temple, Buddhist Monuments, Taj ul Masajid, Orchha Fort'
+        site: 'Khajuraho Temple, Buddhist Monuments, Taj ul Masajid, Orchha Fort, Taj Ul Masjid'
     },
     {
         stateName: "Maharashtra", capital: "Mumbai",
         Area: '307,713 km²', date: '1 May. 1960', food: 'Misal Pav',
-        site: 'Gateway of India, Mumbadevi Temple, Panhala Hills, Ajanta-Ellora Cavas, Jain temple'
+        site: 'Gateway of India, Mumbadevi Temple, Panhala Hills, Ajanta-Ellora Cavas, Jain temple, Haji Ali Mosque'
     },
     {
         stateName: "Manipur", capital: "Imphal",
@@ -108,7 +108,7 @@ export const myObj = [
     }, {
         stateName: "Telangana", capital: "Hyderabad",
         Area: '112,077 km²', date: '2 Jun. 2014', food: 'Biryani',
-        site: 'Charminar, Galconda Fort, Ramoji Film City, Pakhal lake'
+        site: 'Charminar, Galconda Fort, Ramoji Film City, Pakhal lake, Makkah Masjid'
     },
     {
         stateName: "Tripura", capital: "Agartala",
@@ -117,7 +117,7 @@ export const myObj = [
     }, {
         stateName: "Uttar Pradesh", capital: "Lucknow",
         Area: '240,928 km²', date: '1 April 1937', food: 'Tunde Ke Kebabs',
-        site: 'Taj Mahal, Agra Fort, Bara Imambara, Kashi Vishwanath Temple, Varanasi'
+        site: 'Taj Mahal, Agra Fort, Bara Imambara, Kashi Vishwanath Temple, Varanasi, Nagina Masjid, Jamia Masjid'
     }, {
         stateName: "Uttarakhand", capital: "Dehradun (Winter capital) , Gairsain (Summer Capital)",
         Area: '53,483 km²', date: '9 Nov. 2000', food: 'Kafuli',
@@ -142,7 +142,7 @@ export const myObj = [
     {
         unionName: "Delhi", capital: "New Delhi",
         Area: '1,484 km²', date: '9 May. 1905', food: 'Paratha, Chole bhature',
-        site: 'Red Fort, Lotus Temple, India Gate, Humayun’s Tomb, Raj Ghat, Qutub Minar, Jama masjid, Rashtrapati Bhavan, National War Memorial'
+        site: 'Red Fort, Lotus Temple, India Gate, Humayun’s Tomb, Raj Ghat, Qutub Minar, Jama masjid, Rashtrapati Bhavan, National War Memorial, Quwwat Ul Islam Mosque,Jamali Kamali Mosque'
     }, {
         unionName: "Lakshadweep", capital: "Kavaratti",
         Area: '32.62 km²', date: '1 Nov. 1956', food: 'Seafood',
@@ -154,7 +154,7 @@ export const myObj = [
     }, {
         unionName: "Jammu and Kashmir", capital: "Srinagar (Summer capital) , Jammu (Winter capital)",
         Area: '125,535 km²', date: '31 Oct 2019', food: 'Rogan Josh',
-        site: 'Gulmarg, Tulip Garden, Sonamarg, Dal Lake,Maa Vaishno Devi, Amarnath Temple'
+        site: 'Gulmarg, Tulip Garden, Sonamarg, Dal Lake,Maa Vaishno Devi, Amarnath Temple, Jamia Masjid'
     }, {
         unionName: "Ladakh", capital: "Leh",
         Area: '96,701 km²', date: '31 Oct 2019', food: 'Khambir,Yarkhandi Pulao',
