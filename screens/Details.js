@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, TouchableOpacity, View, Text } from 'react-native';
+import { StyleSheet, TouchableOpacity, View, Text, BackHandler } from 'react-native';
 import { myObj } from './StateDetail'
 
 export default class Details extends Component {
@@ -9,12 +9,13 @@ export default class Details extends Component {
             selectedState: this.props.navigation.getParam('name')
         }
     }
+    // BackHandler.addEventListener('hardwareBackPress', this.props.navigation.navigate('StatesList'));
     render() {
         console.log(this.props.navigation.getParam('name'))
         return (
             <View>
                 {myObj.map((value, k) => {
-                    if (this.state.selectedState === value.stateName ) {
+                    if (this.state.selectedState === value.stateName) {
 
                         return (
                             <View key={k}>
@@ -28,7 +29,7 @@ export default class Details extends Component {
                             </View>
                         )
                     }
-                    else if(this.state.selectedState === value.unionName){
+                    else if (this.state.selectedState === value.unionName) {
                         return (
                             <View key={k}>
                                 <Text style={styles.title}>Know the Indian states</Text>

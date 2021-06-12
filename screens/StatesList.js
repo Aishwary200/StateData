@@ -27,16 +27,17 @@ export default class StatesList extends Component {
             { text: 'suggestion2', anotherProperty: 'value2' }
         ]
         return (
-            <View style={{ justifyContent: 'center', alignItems: 'center' }}>
+            <View style={{ justifyContent: 'center', alignItems: 'center',marginLeft:10 }}>
                 <ScrollView>
                     <View>
                         <Text style={styles.title}>Know the Indian states</Text>
+                        <Text style={{fontWeight:'bold',fontSize:17,marginTop:10}}>To know about State/Union Territory click the State/Union Territory name. </Text>
                     </View>
                     <View style={{ marginTop: 20 }}>
                         {states.map((val, k) => {
 
                             return (
-                                <Text style={{marginTop: 10 }} key={k}
+                                <Text style={{marginTop: 10,fontWeight:'bold',fontStyle:'italic',fontSize:18 }} key={k}
                                     onPress={() => this.props.navigation.navigate('Details', { name: val })}>{val} </Text>
 
                             )
