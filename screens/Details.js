@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, TouchableOpacity, View, Text, BackHandler } from 'react-native';
+import { back } from 'react-native/Libraries/Animated/src/Easing';
 import { myObj } from './StateDetail'
 
 export default class Details extends Component {
@@ -8,8 +9,20 @@ export default class Details extends Component {
         this.state = {
             selectedState: this.props.navigation.getParam('name')
         }
+        this.handleBackButtonClick = this.handleBackButtonClick.bind(this);
     }
-    // BackHandler.addEventListener('hardwareBackPress', this.props.navigation.navigate('StatesList'));
+    componentDidMount() {
+        BackHandler.addEventListener('hardwareBackPress', this.handleBackButtonClick);
+    }
+
+    componentWillUnmount() {
+        BackHandler.removeEventListener('hardwareBackPress', this.handleBackButtonClick);
+    }
+
+    handleBackButtonClick() {
+        this.props.navigation.navigate('StatesList');
+        return true;
+    }
     render() {
         console.log(this.props.navigation.getParam('name'))
         return (
@@ -23,9 +36,12 @@ export default class Details extends Component {
                                 <Text style={styles.text}>State: {value.stateName}</Text>
                                 <Text style={styles.text}>Capital: {value.capital}</Text>
                                 <Text style={styles.text}>Area: {value.Area}</Text>
+                                <Text style={styles.text}>Population: {value.pop}</Text>
                                 <Text style={styles.text}>Founded on: {value.date}</Text>
                                 <Text style={styles.text}>Famous food/foods: {value.food}</Text>
                                 <Text style={styles.text}>Tourist sites: {value.site}</Text>
+                                <Text style={styles.text}>Language Spoken: {value.lan}</Text>
+                                <Text style={styles.text}>Note:- Population is as of 2021 estimates</Text>
                             </View>
                         )
                     }
@@ -46,10 +62,6 @@ export default class Details extends Component {
                         )
                     }
                 })}
-                <TouchableOpacity style={styles.button}
-                    onPress={() => this.props.navigation.navigate('StatesList')}>
-                    <Text>Back</Text>
-                </TouchableOpacity>
             </View >
         )
     }

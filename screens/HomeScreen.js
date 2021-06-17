@@ -1,8 +1,25 @@
 import React, { Component } from 'react';
-import { TouchableOpacity, Text, View, StyleSheet, Dimensions, ScrollView } from 'react-native';
+import { TouchableOpacity, Text, View, StyleSheet, Dimensions, ScrollView, BackHandler } from 'react-native';
 
 
 export default class HomeScreen extends Component {
+    constructor(props) {
+        super(props)
+        this.handleBackButtonClick = this.handleBackButtonClick.bind(this);
+    }
+    componentDidMount() {
+        BackHandler.addEventListener('hardwareBackPress', this.handleBackButtonClick);
+    }
+
+    componentWillUnmount() {
+        BackHandler.removeEventListener('hardwareBackPress', this.handleBackButtonClick);
+    }
+
+    handleBackButtonClick() {
+        BackHandler.exitApp()
+        return true;
+    }
+    
     render() {
         return (
             <View style={styles.container}>

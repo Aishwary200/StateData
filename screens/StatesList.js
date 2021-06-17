@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TouchableOpacity, Text, View, StyleSheet, TextInput, ScrollView } from 'react-native';
+import { TouchableOpacity, Text, View, StyleSheet, TextInput, ScrollView,BackHandler } from 'react-native';
 import { states } from '../utiles/states'
 
 
@@ -9,6 +9,7 @@ export default class StatesList extends Component {
         this.state = {
             query: ''
         }
+        this.handleBackButtonClick = this.handleBackButtonClick.bind(this);
     }
     search = (text) => {
         this.setState({
@@ -16,7 +17,19 @@ export default class StatesList extends Component {
         })
     }
     onSelect = (suggestion) => {
-        console.log(suggestion) 
+        console.log(suggestion)
+    }
+    componentDidMount() {
+        BackHandler.addEventListener('hardwareBackPress', this.handleBackButtonClick);
+    }
+
+    componentWillUnmount() {
+        BackHandler.removeEventListener('hardwareBackPress', this.handleBackButtonClick);
+    }
+
+    handleBackButtonClick() {
+        this.props.navigation.navigate('HomeScreen');
+        return true;
     }
     render() {
         const { query } = this.state;
@@ -27,24 +40,21 @@ export default class StatesList extends Component {
             { text: 'suggestion2', anotherProperty: 'value2' }
         ]
         return (
-            <View style={{ justifyContent: 'center', alignItems: 'center',marginLeft:10 }}>
+            <View style={{ justifyContent: 'center', alignItems: 'center', marginLeft: 10 }}>
                 <ScrollView>
                     <View>
                         <Text style={styles.title}>Know the Indian states</Text>
-                        <Text style={{fontWeight:'bold',fontSize:17,marginTop:10}}>To know about State/Union Territory click the State/Union Territory name. </Text>
+                        <Text style={{ fontWeight: 'bold', fontSize: 17, marginTop: 10 }}>To know about State/Union Territory click the State/Union Territory name. </Text>
                     </View>
                     <View style={{ marginTop: 20 }}>
                         {states.map((val, k) => {
 
                             return (
-                                <Text style={{marginTop: 10,fontWeight:'bold',fontStyle:'italic',fontSize:18 }} key={k}
+                                <Text style={{ marginTop: 10, fontWeight: 'bold', fontStyle: 'italic', fontSize: 18 }} key={k}
                                     onPress={() => this.props.navigation.navigate('Details', { name: val })}>{val} </Text>
 
                             )
                         })}
-                        <TouchableOpacity style={styles.button}
-                            onPress={() => this.props.navigation.navigate('HomeScreen')}>
-                            <Text>Back</Text></TouchableOpacity>
                     </View>
                 </ScrollView>
             </View>
@@ -69,7 +79,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         fontWeight: 'bold',
         paddingTop: 90,
-        
+
     },
     textInput: {
         width: "95%",
