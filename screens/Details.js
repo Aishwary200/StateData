@@ -39,6 +39,7 @@ export default class Details extends Component {
                                 <Text style={styles.text}>Founded on: {value.date}</Text>
                                 <Text style={styles.text}>Famous food/foods: {value.food}</Text>
                                 <Text style={styles.text}>Tourist sites: {value.site}</Text>
+                                <Text style={styles.text}>Language Spoken: {value.lan}</Text>
                             </View>
                         )
                     }
