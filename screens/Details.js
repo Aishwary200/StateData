@@ -36,10 +36,12 @@ export default class Details extends Component {
                                 <Text style={styles.text}>Union Territory: {value.unionName}</Text>
                                 <Text style={styles.text}>Capital: {value.capital}</Text>
                                 <Text style={styles.text}>Area: {value.Area}</Text>
+                                <Text style={styles.text}>Population: {value.pop}</Text>
                                 <Text style={styles.text}>Founded on: {value.date}</Text>
                                 <Text style={styles.text}>Famous food/foods: {value.food}</Text>
                                 <Text style={styles.text}>Tourist sites: {value.site}</Text>
                                 <Text style={styles.text}>Language Spoken: {value.lan}</Text>
+                                <Text style={styles.text}>Note:- Population is as of 2021 estimates</Text>
                             </View>
                         )
                     }
