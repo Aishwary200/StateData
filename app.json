@@ -2,7 +2,7 @@
   "expo": {
     "name": "Statedata",
     "slug": "stateData",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/Know the indian states logo.png",
     "splash": {
