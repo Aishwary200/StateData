@@ -4,9 +4,9 @@
     "slug": "stateData",
     "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Know the indian states logo.png",
+    "icon": "./assets/stateslogo.png",
     "splash": {
-      "image": "./assets/Know the Indian States splash.png",
+      "image": "./assets/statessplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,7 +21,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Know the indian states logo.png",
+        "foregroundImage": "./assets/stateslogo.png",
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.aishwarykumar.stateData",
