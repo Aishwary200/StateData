@@ -24,7 +24,6 @@ export default class Details extends Component {
         return true;
     }
     render() {
-        console.log(this.props.navigation.getParam('name'))
         return (
             <View>
                 {myObj.map((value, k) => {
