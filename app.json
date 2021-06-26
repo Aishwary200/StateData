@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.Comate.Statedata",
+      "package": "com.aishwarykumar.stateData",
       "versionCode": 2
     },
     "web": {
