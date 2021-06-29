@@ -42,6 +42,7 @@ export default class Details extends Component {
                                 <Text style={styles.text}>Language Spoken: {value.lan}</Text>
                                 <Text style={styles.text}>Chief Minister: {value.cm}</Text>
                                 <Text style={styles.text}>Governor: {value.gov}</Text>
+                                <Text style={styles.text}>State flower: {value.sf}</Text>
                                 <Text style={styles.text}>Note:- Population is as of 2021 estimates</Text>
                             </View>
                         )
@@ -60,6 +61,7 @@ export default class Details extends Component {
                                 <Text style={styles.text}>Language Spoken: {value.lan}</Text>
                                 <Text style={styles.text}>Chief Minister: {value.cm}</Text>
                                 <Text style={styles.text}>Lieutenant Governor/Administrator: {value.gov}</Text>
+                                <Text style={styles.text}>Ut flower: {value.sf}</Text>
                                 <Text style={styles.text}>Note:- Population is as of 2021 estimates</Text>
                             </View>)
                         }
@@ -76,6 +78,7 @@ export default class Details extends Component {
                                 <Text style={styles.text}>Tourist sites: {value.site}</Text>
                                 <Text style={styles.text}>Language Spoken: {value.lan}</Text>
                                 <Text style={styles.text}>Lieutenant Governor/Administrator: {value.gov}</Text>
+                                <Text style={styles.text}>UT flower: {value.sf}</Text>
                                 <Text style={styles.text}>Note:- Population is as of 2021 estimates</Text>
                             </View>
                         )
