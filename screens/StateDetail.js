@@ -187,49 +187,49 @@ export const myObj = [
         Area: '8,249 km²', date: '1 Nov. 1956', food: 'Fish Curry, Seafood',
         site: 'Radhanagar Beach, Havelock Island, Cellular Jail, Barren Island',
         lan: 'Bengali, Andamanese, Tamil, Telgu, Malayalam, Hindi', pop: '4.2 Lakhs',
-        gov: ''
+        gov: 'Admiral D K Joshi (Lieutenant Governor)'
     }, {
         unionName: "Chandigarh", capital: "Chandigarh",
         Area: '114 km²', date: '1 Nov. 1956', food: 'Chole bhature',
         site: 'Rock Garden of chandigarh, Sukhna Lake, Fun City (Water amusement park), Rose garden',
         lan: 'Punjabi, Hindi', pop: '11.69 Lakhs',
-        gov: ''
+        gov: 'Shri.V.P. Singh Badnore (Administrator)'
     }, {
         unionName: "Dadra and Nagar Haveli and Daman & Diu", capital: "Daman",
         Area: '603 km²', date: '26 Jan. 2020', food: 'Papyri food',
         site: 'Swaminarayan Temple, Dudhani Lake, Tribal Museum, Hirwavan garden, Diu Fort, Gangeshwar Temple, Nagoa Beach, St. Paul’s Church',
         lan: 'Gujarati, Hindi', pop: '6.20 Lakhs',
-        gov: ''
+        gov: 'Shri Praful Patel (Administrator)'
     },
     {
         unionName: "Delhi", capital: "New Delhi",
         Area: '1,484 km²', date: '9 May. 1905', food: 'Paratha, Chole bhature',
         site: 'Red Fort, Lotus Temple, India Gate, Humayun’s Tomb, Raj Ghat, Qutub Minar, Jama masjid, Rashtrapati Bhavan, National War Memorial, Quwwat Ul Islam Mosque,Jamali Kamali Mosque',
         lan: 'Hindi, Urdu', pop: '1.90 Crores', cm: 'Shri Arvind Kejriwal',
-        gov: ''
-    }, {
-        unionName: "Lakshadweep", capital: "Kavaratti",
-        Area: '32.62 km²', date: '1 Nov. 1956', food: 'Seafood',
-        site: 'Kavaratti Island, Amindivi Island, Agatti Island, Lighthouse',
-        lan: 'Malayalam, Jeseri, Mahl', pop: '66.15 Thousand',
-        gov: ''
-    }, {
-        unionName: "Puducherry", capital: "Pondicherry",
-        Area: '479 km²', date: '1 Nov. 1954', food: 'Seafood',
-        site: 'Seaside Promenade, Church of the Sacred Heart of Jesus, Paradise Beach, Pondicherry Botanical Garden',
-        lan: 'Tamil, Telgu, English, French', pop: '14.32 Lakhs', cm: 'Shri N. Rangaswamy',
-        gov: ''
+        gov: 'Shri Anil Baijal (Lieutenant Governor)'
     }, {
         unionName: "Jammu and Kashmir", capital: "Srinagar (Summer capital) , Jammu (Winter capital)",
         Area: '125,535 km²', date: '31 Oct 2019', food: 'Rogan Josh',
         site: 'Gulmarg, Tulip Garden, Sonamarg, Dal Lake,Maa Vaishno Devi, Amarnath Temple, Jamia Masjid',
         lan: 'Kashmiri, Dogri, Hindi, Urdu', pop: '1.38 Crores',
-        gov: ''
+        gov: 'Shri Manoj Sinha (Lieutenant Governor)'
     }, {
         unionName: "Ladakh", capital: "Leh",
         Area: '96,701 km²', date: '31 Oct 2019', food: 'Khambir,Yarkhandi Pulao',
         site: 'Khardung La, Karakoram Wildlife Sanctuary, Shey Monastery, Magnet Hill, Tso moriri',
         lan: 'Ladakhi', pop: '2.90 Lakhs',
-        gov: ''
+        gov: '	Shri Radha Krishna Mathur (Lieutenant Governor)'
+    }, {
+        unionName: "Lakshadweep", capital: "Kavaratti",
+        Area: '32.62 km²', date: '1 Nov. 1956', food: 'Seafood',
+        site: 'Kavaratti Island, Amindivi Island, Agatti Island, Lighthouse',
+        lan: 'Malayalam, Jeseri, Mahl', pop: '66.15 Thousand',
+        gov: 'Shri Praful Patel (Administrator)'
+    }, {
+        unionName: "Puducherry", capital: "Pondicherry",
+        Area: '479 km²', date: '1 Nov. 1954', food: 'Seafood',
+        site: 'Seaside Promenade, Church of the Sacred Heart of Jesus, Paradise Beach, Pondicherry Botanical Garden',
+        lan: 'Tamil, Telgu, English, French', pop: '14.32 Lakhs', cm: 'Shri N. Rangaswamy',
+        gov: 'Dr. Tamilisai Soundararajan (Addl. Charge) (Lieutenant Governor)'
     },
 ]
