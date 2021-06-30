@@ -39,7 +39,7 @@ export default class HomeScreen extends Component {
                     </View>
                     <View style={{
                         width: Dimensions.get('window').width,
-                        height: 400, backgroundColor: 'green', alignItems: 'center',
+                        backgroundColor: 'green', alignItems: 'center',
                         justifyContent: 'center',
                     }}>
                         <Text style={{
