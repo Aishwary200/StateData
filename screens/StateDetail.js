@@ -200,7 +200,7 @@ export const myObj = [
         stateName: "Uttarakhand", capital: "Dehradun (Winter capital) , Gairsain (Summer Capital)",
         Area: '53,483 km²', date: '9 Nov. 2000', food: 'Kafuli',
         site: 'Nainital, Gun Hill, Badrinath Temple, Piran Kaliyar Sharif, Kedarnath Temple',
-        lan: 'Hindi, Garhwali, Kumaoni, Jaunsari', pop: '1.14 Crores', cm: 'Shri Tirath Singh Rawat',
+        lan: 'Hindi, Garhwali, Kumaoni, Jaunsari', pop: '1.14 Crores', cm: 'Shri Pushkar Singh Dhami',
         gov: 'Smt. Baby Rani Maurya', sf: 'Brahma Kamal',
         sa: 'Alpine musk deer'
     }, {
