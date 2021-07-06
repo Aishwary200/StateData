@@ -39,7 +39,7 @@ export const myObj = [
         Area: '3,702 km²', date: '30 May. 1987', food: 'Fish Curry',
         site: 'Agonda Beach, Basilica of Bom Jesus, Palolem Beach, Mangueshui Temple,Baga Beach, Grand Island',
         lan: 'Konkani', pop: '16 Lakhs', cm: 'Shri Pramod Sawant',
-        gov: 'Shri Bhagat Singh Koshyari', sf: 'Frangipani',
+        gov: 'Shri P.S. Sreedharan Pillai', sf: 'Frangipani',
         sa: 'Gaur'
     }, {
         stateName: "Gujarat", capital: "Gandhinagar",
@@ -53,21 +53,21 @@ export const myObj = [
         Area: '44,212 km²', date: '1 Nov. 1966', food: 'Bajre Ki Khichdi',
         site: 'Badhkal Lake, Morni Hills, Dumdama Lake, Sultanpur Bird Sanctuary',
         lan: 'Haryanvi, Mewati, Punjabi', pop: '2.85 Crores', cm: 'Shri Manohar Lal Khattar',
-        gov: 'Shri Satyadeo Narain Arya', sf: 'Lotus',
+        gov: 'Shri Bandaru Dattatraya', sf: 'Lotus',
         sa: 'Blackbuck'
     }, {
         stateName: "Himachal Pradesh", capital: "Shimla",
         Area: '55,673 km²', date: '25 Jan. 1971', food: 'Dham',
         site: 'Shimla, Manali, Dal Lake, Khajjiar (Mini Switzerland of India)',
         lan: 'Dogri, Pahari, Hindi', pop: '75 Lakhs', cm: 'Shri Jairam Thakur',
-        gov: 'Shri Bandaru Dattatraya', sf: 'Pink rhododendron',
+        gov: 'Shri Rajendra Vishwanath Arlekar', sf: 'Pink rhododendron',
         sa: 'Snow leopard'
     }, {
         stateName: "Jharkhand", capital: "Ranchi",
         Area: '79,714 km²', date: '15 Nov. 2000', food: 'Dhooska',
         site: 'Hazaribagh Wildlife Sanctuary, Parasnath, Deoghar, Canary Hill, Jamshedpur, Jubilee park, Hundru Falls(Ranchi)',
         lan: 'Magahi, Maithili, Mundari, Santhali', pop: '3.92 Crores', cm: 'Shri Hemant Soren',
-        gov: 'Shrimati Droupadi Murmu', sf: 'Palash',
+        gov: 'Shri Ramesh Bais', sf: 'Palash',
         sa: 'Indian elephant'
     },
     {
@@ -75,7 +75,7 @@ export const myObj = [
         Area: '191,791 km²', date: '1 Nov. 1956', food: 'Bisi Bele Bath',
         site: 'Keshava Temple, Coorg Hills, Mysore Palace, Gol Gumbaz',
         lan: 'Kannada', pop: '6.83 Crores', cm: 'Sri B. S. Yediyurappa',
-        gov: 'Shri Vajubhai Vala', sf: 'Lotus',
+        gov: 'Shri Thaawarchand Gehlot', sf: 'Lotus',
         sa: 'Indian elephant'
     }, {
         stateName: "Kerala", capital: "Thiruvanathpuram",
@@ -90,7 +90,7 @@ export const myObj = [
         Area: '308,245 km²', date: '1 Nov. 1956', food: 'Bhutte Ka Kees',
         site: 'Khajuraho Temple, Buddhist Monuments, Taj ul Masajid, Orchha Fort, Taj Ul Masjid',
         lan: 'Hindi, Malvi, Nimadi', pop: '8.70 Crores', cm: 'Shri Shivraj Singh Chouhan',
-        gov: 'Smt. Anandiben Patel', sf: 'Parrot tree',
+        gov: 'Shri Mangubhai Chhaganbhai Patel', sf: 'Parrot tree',
         sa: 'Barasingha Swamp deer'
     },
     {
@@ -122,7 +122,7 @@ export const myObj = [
         Area: '21,081 km²', date: '20 Feb. 1987', food: 'Misa Mach Poora',
         site: 'Durtlang Hills, Champhai, Dampa Wildlife Sanctuary,Vantawng Falls',
         lan: 'Mizo, English', pop: '12.55 Lakhs', cm: 'Shri Pu Zoramthanga',
-        gov: 'Shri P.S. Sreedharan Pillai', sf: 'Red Vanda',
+        gov: 'Dr. Hari Babu Kambhampati', sf: 'Red Vanda',
         sa: 'Himalayan serow'
     },
     {
@@ -187,7 +187,7 @@ export const myObj = [
         Area: '10,486 km²', date: '21 Jan. 1972', food: 'Chakhwi',
         site: 'Iskcon Radha-Govinda Mandir, Neermahal Palace, Unakoti,Tripura Sundari Temple',
         lan: 'Bengali, Tripuri', pop: '42 Lakhs', cm: 'Shri Biplab Kumar Deb',
-        gov: 'Shri Ramesh Bais', sf: 'Nag Kesar',
+        gov: 'Shri Satyadeo Narain Arya', sf: 'Nag Kesar',
         sa: "Phayre's langur"
     }, {
         stateName: "Uttar Pradesh", capital: "Lucknow",
